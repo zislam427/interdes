@@ -1,0 +1,56 @@
+
+
+/*web background*/
+body {
+    margin:0;
+    padding: 0; 
+    background-image:url('images/Deep\ Space.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-family:"Explorien";
+    src:url(fonts/Explorien.otf);
+}
+
+#intro {
+    color:#86d15b;
+}
+
+button {
+    padding: 20px;
+    text-align: center;
+    font-family:"Explorien";
+    src:url(fonts/Explorien.otf);
+    color:#86d15b;
+    font-size: 10pt;
+    cursor: pointer;
+    background:rgba(20,32,58);
+    border-radius: 10px;
+    border:none;
+    display:inline-block;
+}
+/*when hovering S T A R T*/
+button:hover {
+    color:rgba(20,32,58);
+    background:white;
+}
+
+#retry {
+    display: none;
+}
+
+/*the canvas div*/
+#canvas {
+    display:none;
+    text-align:center;
+    background-color: rgba(20,32,58,.5);
+    /*#14203a;*/
+    align-items: center;
+}
+
+footer {
+    font-size: 9pt;
+}
+

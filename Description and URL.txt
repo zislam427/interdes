@@ -1,0 +1,9 @@
+Interact: Lost Alien Description and URL 
+
+I essentially created a simple mystery and walking game for an alien character. First, I created a variable called alien for an alien character (loaded image) and variables x, y to define the alien's position in the canvas and a Boolean that gameOver = false as long as the game is running (or other actions, that follow below, haven't been met). I then programmed the alien's x, y to continuously be added or subtracted to, should the user press different arrow keys, while also checking that the game is not over (it will continue to draw the alien's position, a preloaded starry background image, and check collision as long as gameOver is false). I then created a obstacle variables: ufos (also loaded images) and an array that would hold the multiples of these ufos. From there I set up a canvas and added/pushed multiple new ufos into the canvas and array, each with a different defined x,y position. An if, else statement was made to check the x,y position of the alien against the different positions of each ufos'. When the user enters/collides a ufo position, the function checkCollide will print which ufo the alien has entered, then change gameOver to be true and a new text and background will be displayed depending on which ufo in the array it is. There is only one correct ufo to enter with a happy message/gameOverText. 
+
+Additionally I created a button "Start" to select and reveal the canvas (in a div) and a retry button, as those are not originally displayed. The button "Retry" also resets the canvas. 
+
+
+URL: 
+
