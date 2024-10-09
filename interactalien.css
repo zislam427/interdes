@@ -4,14 +4,14 @@
 body {
     margin:0;
     padding: 0; 
-    background-image:url('images/Deep\ Space.jpg');
+    background-image:url('Deep\ Space.jpg');
     background-size: cover;
     justify-content: center;
     align-items: center;
     text-align: center;
     color:white;
     font-family:"Explorien";
-    src:url(fonts/Explorien.otf);
+    src:url(Explorien.otf);
 }
 
 #intro {
@@ -22,7 +22,7 @@ button {
     padding: 20px;
     text-align: center;
     font-family:"Explorien";
-    src:url(fonts/Explorien.otf);
+    src:url(Explorien.otf);
     color:#86d15b;
     font-size: 10pt;
     cursor: pointer;
