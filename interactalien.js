@@ -45,10 +45,10 @@ let startButton;
 let canvasDiv;
 
 function preload (){
-    alien = loadImage("images/akien.png");
-    bg = loadImage("images/spacebg.jpg");
-    ufo = loadImage("images/ufo.png");
-    gameFont = loadFont('fonts/Explorien.otf')
+    alien = loadImage("akien.png");
+    bg = loadImage("spacebg.jpg");
+    ufo = loadImage("ufo.png");
+    gameFont = loadFont('Explorien.otf')
 }
 
 function setup (){
